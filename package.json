@@ -1,0 +1,37 @@
+{
+  "name": "slsx",
+  "version": "0.0.1",
+  "repository": "dantehemerson/slsx",
+  "description": "A tiny utility for constructing React Native styles conditionally",
+  "module": "dist/slsx.m.js",
+  "unpkg": "dist/slsx.min.js",
+  "main": "dist/slsx.js",
+  "types": "slsx.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Dante Calderon",
+    "email": "mail@dantecalderon.dev",
+    "url": "https://dantecalderon.dev"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape test/*.js | tap-spec"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": [
+    "classes",
+    "classname",
+    "classnames",
+    "clsx",
+    "styles"
+  ],
+  "devDependencies": {
+    "bundt": "^0.4.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
