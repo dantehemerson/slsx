@@ -1,6 +1,6 @@
 {
   "name": "slsx",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "dantehemerson/slsx",
   "description": "A tiny utility for constructing React Native styles conditionally",
   "module": "dist/slsx.m.js",
