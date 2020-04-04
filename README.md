@@ -2,6 +2,8 @@
 
 > A tiny utility for constructing React Native styles conditionally
 
+> DISCLAIMER: At this moment it only works with `react-native-web`.
+
 This module is based on [`clsx`](https://github.com/lukeed/clsx).
 
 This module is available in three formats:
